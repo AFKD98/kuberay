@@ -157,6 +157,7 @@ def train_fashion_mnist(num_workers=4, cpus_per_worker=2, use_gpu=False):
     # =============================================
     result = trainer.fit()
     print(f"Training result: {result}")
+    print("Benchmark Completed Successfully.")
 
 
 if __name__ == "__main__":
