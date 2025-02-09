@@ -80,7 +80,7 @@ train_func_config = {
     "lr": 1e-5,
     "eps": 1e-8,
     "batch_size": 16,
-    "max_epochs": 5,
+    "max_epochs": 3,
 }
 
 def train_func(config):
@@ -151,3 +151,4 @@ if __name__ == "__main__":
 
     result = trainer.fit()
     print(result)
+    print("Benchmark Completed Successfully.")
