@@ -87,6 +87,7 @@ def main():
     total_words = sum(total_counter.values())
     print(f"\nTotal word count: {total_words}")
     print(f"Distributed word count benchmark completed in {end_time - start_time:.2f} seconds.")
+    print('Benchmark Completed Successfully.')
 
     # Shutdown Ray.
     ray.shutdown()
