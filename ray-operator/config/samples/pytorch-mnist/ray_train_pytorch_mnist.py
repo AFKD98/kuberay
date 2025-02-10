@@ -134,7 +134,7 @@ def train_fashion_mnist(num_workers=4, cpus_per_worker=2, use_gpu=False):
 
     train_config = {
         "lr": 1e-3,
-        "epochs": 1,
+        "epochs": 5,
         "batch_size_per_worker": global_batch_size // num_workers,
     }
 
