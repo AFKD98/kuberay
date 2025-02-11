@@ -75,6 +75,7 @@ def main():
     print(f"Average time per batch: {avg_time_per_batch:.4f} seconds")
     print(f"Throughput: {throughput:.2f} images/second")
     print(f"Benchmark (including overhead) completed in {benchmark_end - benchmark_start:.4f} seconds")
+    print("Benchmark Completed Successfully.")
 
     # Shutdown Ray.
     ray.shutdown()
